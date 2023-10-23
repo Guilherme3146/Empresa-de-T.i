@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sub-menu.css">
+    <link rel="stylesheet" href="./css/nivo-slider.css">
+    <link rel="stylesheet" href="./css/principal-text.css">
+    <link rel="stylesheet" href="./css/box-imagens.css">
+    <link rel="stylesheet" href="./css/rodape.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+   
+    <script defer src="app.js"></script>
+    <script defer src="slider.js"></script>
+</head>
+<body>
+    <header class="borda-superior">        
+           <h4>
+            11 4004-4004 11 4004-4055
+           </h4>
+    </header>
+        <section class="section">
+            <nav class="nav">
+                <img src="./src/logo.jpg" alt="logo" class="logo-img1">
+
+                <div style="text-align: center">
+                    <ul class="menu-list">
+                        <li><a href="" class="home" >HOME</a></li>
+
+                        <li><a href="" class="empresa">EMPRESA</a>
+                            <div class="sub-menu-1">
+                                <ul class="sub-empresa" style="list-style: none">
+                                    <li class="hover-sub">
+                                        <a href="#">QUEM SOMOS<p>></p></a>
+                                            <div class="sub-menu-2">
+                                                <ul style="list-style: none">
+                                                    <li> <a href="#">NOSSA HISTÓRIA</a></li>
+                                                </ul>
+                                            </div>
+                                    </li>
+                                    <li>
+                                        <a href="#">MISSÃO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">VISÃO</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">VALORES</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="" class="clientes">CLIENTES</a>
+                            <div class="sub-menu-1">
+                                <ul class="sub-empresa" style="list-style: none">
+                                    <li class="hover-sub">
+                                        <a href="#">NOSSOS PARCEIROS<p>></p></a>
+                                        <div class="sub-menu-2">
+                                            <ul style="list-style: none">
+                                                <li> 
+                                                    <a href="#">GOOGLE</a>
+                                                </li>
+                                                <li> 
+                                                    <a href="#">AMAZON</a>
+                                                </li>
+                                                <li> 
+                                                    <a href="#">TRABALHE CONOSCO</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="hover-sub">
+                                        <a href="#">FEEDBACKS<p>></p></a>
+                                        <div class="sub-menu-2">
+                                            <ul style="list-style: none">
+                                                <li> 
+                                                    <a href="#">AVALIAÇÕES</a>
+                                                </li>
+                                                <li> 
+                                                    <a href="#">OUVIDORIA</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="" class="contatos">CONTATOS</a>
+                            <div class="sub-menu-1">
+                                <ul class="sub-contatos" style="list-style: none">
+                                    <li>
+                                        <a class="linkedin" href="#">LINKEDIN</a>
+                                    </li>
+                                    <li>
+                                        <a class="Facebook" href="#">FACEBOOK</a>
+                                    </li>
+                                    <li>
+                                        <a class="Instagram" href="#">INSTAGRAM</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="menu-hamburguer">
+                    <button onclick="menuShow()" class="btn-menu"><img class="btn-hamburguer" src="./src/Responsive/menu.svg" alt=""></button></nav>
+                </div>
+
+                <ul class="menu-mobile" style="list-style: none">
+                <li><a href="">HOME</a></li>
+                <li><a href="">EMPRESA</a></li>
+                <li><a href="">CLIENTES</a></li>
+                <li><a href="">CONTATOS</a></li>
+                </ul>
+        </section>
+    
+        <form>
+            <section class="slider">
+                <div class="slides">
+
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+
+                    <div class="slide-img">
+                       <img src="./src/Slider/slider1.jpg" alt="imagem engenheiro software">
+                    </div>
+                    <div class="slide-img">
+                       <img src="./src/Slider/slider2.jpg" alt="imagem engenheira software">
+                     </div>
+
+                     <section class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                     </section>
+
+                     <section class="manual-navigation">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                     </section>
+
+                 </div>
+            </section>
+    
+            <div class="img-center">
+                <div class="principal-text">
+                    <h2>Bem-vindo ao futuro!</h2>
+    
+                    <p>Venha conhecer uma das melhores empresas do mercado <br>
+                    no desenvolvimento de software, venha conosco!!!
+                    </p>    
+                </div>
+           
+            <div>
+                <img src="./src/Img-central.jpeg" id="imagem" alt="">
+             </div>
+          </div>
+
+          <nav class="box">
+
+            <h2 class="nossos-projetos">
+                Nossos Projetos
+            </h2>
+
+            <ul class="box-de-imagens" style="list-style: none">
+                <li>
+                    <a class ="Descricao" target="_blank"  href="https://www.rappi.com.br/?utm_source=google&pid=google&utm_medium=cpc&af_channel=cpc&utm_campaign=CX_BR_PR_SE_GO_SEB_DSK_ALL_RAP_ALL_NA_00000_EXA&c=CX_BR_PR_SE_GO_SEB_DSK_ALL_RAP_ALL_NA_00000_EXA&utm_id=18547414202&af_c_id=18547414202&utm_term=rappi&af_keywords=rappi&utm_content=e&af_ad=e&gclid=CjwKCAjwkNOpBhBEEiwAb3MvvaokBwY-r-j_ii2z_seXEmPZ6wOpwJICbn7GVp4462MF_jUdd-W3dhoC2QcQAvD_BwE">
+                        <img src="./src/NossosProjetos/app-de-comida.webp" alt="">
+                        <p>Rappi</p>
+                    </a>
+                </li>
+                <li>
+                    <a class ="Descricao" target="_blank" href="https://taxiapp-partnership.com">
+                        <img src="./src/NossosProjetos/TaxiApp.jpeg" alt="">
+                        <p>TaxiApp</p>
+                    </a>
+                </li>
+                <li>
+                    <a class ="Descricao" target="_blank"  href="https://www.voegol.com.br/?gclid=CjwKCAjwkNOpBhBEEiwAb3MvvTqYQfAHGNQlvsIUHAzqwbxFzNw65AX0kWrjFPBRTU6i84UsGB47gBoCI30QAvD_BwE&gclsrc=aw.ds">
+                        <img src="./src/NossosProjetos/gol.jpeg" alt="">
+                        <p>Voe com Gol</p>
+                    </a>
+                </li>
+                <li>
+                    <a class ="Descricao" target="_blank" href="https://play.google.com/store/apps/details?id=world.social.group.video.share&hl=pt_BR&gl=US&pli=1">
+                        <img src="./src/NossosProjetos/app-de-redesocial.webp" alt="">
+                        <p>Helo</p>
+                    </a>
+                </li>
+            </ul>
+
+          </nav>
+          <footer class="rodape">
+            <ul class="rodape-items" style="list-style: none;">
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">EMPRESA</a>
+                </li>
+                <li>
+                    <a href="#">CLIENTES</a>
+                </li>
+                <li>
+                    <a href="#">CONTATOS</a>
+                </li>
+            </ul>
+                <p class="final-page">
+                   criado por Guilherme Melo
+                </p>
+          </footer>
+
+        </form>
+    </body>
+    
+</html>

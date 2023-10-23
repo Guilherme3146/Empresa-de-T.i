@@ -1,0 +1,79 @@
+.sub-menu-1{
+    display: none;
+}
+
+.menu-list li:hover .sub-menu-1{
+    display: block;
+    position :absolute;
+    background-color: white;
+    margin-top: auto;
+    margin-left: -38px;
+    box-shadow: 0px 0px 5px #464646; 
+}
+
+.menu-list li:hover .sub-menu-1 a{
+    list-style: none;
+    font-size: 11px;
+    align-items: center;
+    font-weight: bold
+}
+
+.sub-empresa p{
+    font-size: 20px;
+    color: rgb(236, 54, 22);
+    padding-left: 5%;
+    font-weight: bold;
+} 
+
+
+.menu-list li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+.menu-list li:hover .sub-menu-1 .sub-empresa li{
+    width: 150px;
+    padding-left: 5%;
+}
+
+.sub-menu-1 .sub-contatos{
+    width: 150px;
+    border-radius: 2vh;
+}
+
+.sub-menu-1 .sub-contatos .Instagram{ 
+    background: linear-gradient(45deg, #406de6, #5851db, #833ab4,#c13584,#E1306c, #Fd1d1d);
+    padding-left: 5%;
+    color: #f1e6e6;
+}
+.sub-menu-1 .sub-contatos .linkedin{ 
+    background: linear-gradient(45deg, #0077b5,#00A0dc,#0077b5, #44a1d3,#00A0dc,#00A0dc);
+    padding-left: 5%;
+    color: #f1e6e6;
+}
+.sub-menu-1 .sub-contatos .Facebook{ 
+    background: rgb(39, 20, 219);
+    padding-left: 5%;
+    color: #f1e6e6;
+}
+
+.menu-list li:hover .sub-menu-1 ul li:hover{
+    background-color: 464646;
+    
+}
+
+/*Sub-Menu2*/
+
+.sub-menu-2{
+    display: none;
+}
+
+.hover-sub:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 140px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #464646; 
+}
+
+

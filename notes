@@ -1,0 +1,9 @@
+HTML NOTES:
+
+-Atributo "defer" no html diz ao script 
+para carregar depois do html.
+
+CSS NOTES:
+
+-Atributo padding-block 
+aumenta a área de click do usuário mobile
